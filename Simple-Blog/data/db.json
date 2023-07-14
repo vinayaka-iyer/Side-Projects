@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "I am Awesome",
+      "body": "I'm simply awesome boys and girls.",
+      "author": "mario",
+      "id": 3
+    },
+    {
+      "title": "Back Home",
+      "body": "hopefull i get back to homepage",
+      "author": "yoshi",
+      "id": 6
+    },
+    {
+      "title": "Hello ",
+      "body": "Well hello there",
+      "author": "mario",
+      "id": 7
+    },
+    {
+      "title": "Added from Github",
+      "body": "This blog was added from github.io/create",
+      "author": "mario",
+      "id": 8
+    },
+    {
+      "title": "hello",
+      "body": "world",
+      "author": "mario",
+      "id": 9
+    }
+  ]
+}
