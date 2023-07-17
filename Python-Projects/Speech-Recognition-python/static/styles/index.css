@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto Mono", monospace;
+}
+
+#speechContainer {
+	padding: 20px;
+	width: 700px;
+	margin: 0 auto;
+}
+
+#speechContainer h1 {
+	margin: 5px 0;
+	font-weight: 900;
+}
+
+form {
+	padding: 10px 0;
+	cursor: pointer;
+}
+
+input[type="file"] {
+	opacity: 0;
+	cursor: pointer;
+	width: 24px;
+	height: 24px;
+	font-size: 0;
+	position: absolute;
+	margin: 10px 0;
+}
+.style-2 {
+	padding: 1.2em;
+	background-color: white;
+	border: 5px solid black;
+	box-shadow: 10px 5px yellow;
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.75);
+	transition: all 0.2s linear;
+}
+
+.style-2:hover {
+	color: black;
+	padding: 1em;
+	box-shadow: 10px 5px rgba(255, 0, 144, 1);
+}
+
+.style-2 {
+	padding: 1.2em;
+	background-color: white;
+	border: 5px solid black;
+	box-shadow: 10px 5px rgba(255, 0, 144, 1);
+	cursor: pointer;
+	font-family: "Plaster", cursive;
+	color: rgba(0, 0, 0, 0.75);
+	transition: all 0.2s linear;
+}
+
+.style-2:hover {
+	color: black;
+	padding: 1em;
+	box-shadow: 10px 5px rgb(0, 255, 255);
+}
+
+.style-3 {
+	padding: 1em 0.2em 0em 1em;
+	border: 0;
+	background: white;
+	font-size: 2em;
+	border-radius: 10px;
+	box-shadow: 10px 10px rgba(255, 0, 144, 1);
+	transition: all 0.1s linear;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.style-3:hover {
+	box-shadow: 5px 5px rgb(0, 255, 255);
+}

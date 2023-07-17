@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Recognition in Python</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/styles/index.css">
+</head>
+
+<body>
+    <div id="speechContainer">
+        <h1 class="style-3">Upload New File</h1>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="">
+            <h3>📁</h3>
+            </input>
+            <br>
+            <input type="submit" value="Transcribe" class="style-2" />
+        </form>
+        {% if transcript != "" %}
+        <div id="speechTranscriptContainer" class="style-2">
+            <h1>Transcript</h1>
+            <p>{{transcript}}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>
